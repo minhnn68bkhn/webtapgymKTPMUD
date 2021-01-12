@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #333;
+}
+section {
+	margin: 20px 0;
+}
+.container{
+	max-width: 1140px;
+	margin: 0 auto;
+	display: flex;
+}
+.container .row-top,.row-right {
+	padding: 20px;
+}
+.container .row-top {
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.container .row-top .logo img{
+	width: 15%;
+}
+.container .row-top .logo {
+	display: flex;
+	align-items: center;
+	background: linear-gradient(#FE2E2E,#FF4000);
+	border-top-right-radius: 50px;
+	height: 60px;
+	border-bottom-right-radius: 50px;
+
+}
+.container .row-top .logo p{
+	color: #fff;
+	margin-left: 10px;
+	text-align: center;
+	font-family: 'Yusei Magic', sans-serif;
+	font-size: 20px;
+}
+.container .row-top .list-execrise {
+	padding-top: 20px;
+}
+.container .row-top .list-execrise  {
+	position: relative;
+}
+.container .row-top .list-execrise img {
+	width: 100%;
+}
+.container .row-top .list-execrise  p{
+	position: absolute;
+	top: 0%;
+	left: 50%;
+	transform: translateX(-50%);
+	color: #fff;
+	font-size: 32px;
+	width: 100%;
+	text-align: center;
+	height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .row-right .list-execrise{
+	width: 500px;
+	height: 300px;
+	position: relative;
+	margin-bottom: 20px;
+}
+.container .row-right .list-execrise img {
+	width: 100%;
+	position: absolute;
+	height: 100%;
+	object-fit: cover;
+}
+.container .row-right {
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+}
